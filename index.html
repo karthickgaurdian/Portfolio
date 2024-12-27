@@ -6,35 +6,16 @@
   <title>Karthick M - Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
   <style>
-    .header-content {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .profile-image {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 15px;
-      padding: 0;
-      margin: 0;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-    }
+   
   </style>
 </head>
 <body>
   <header>
     <nav>
+      <div class="header-content">
+        <img src="images/id card.png" alt="Karthick's Image" class="profile-image">
+        <h1>Karthick M</h1>
+      </div>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -42,19 +23,22 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#work-experience">Experiences</a></li>
       </ul>
-      <div class="header-content">
-        <img src="images/id card.png" alt="Karthick's Image" class="profile-image">
-        <h1>Karthick M</h1>
-      </div>
     </nav>
   </header>
 
   <section id="about">
-    <h2>About Me</h2>
-    <p>Hello, I'm Karthick, a highly skilled and dedicated Full Stack Developer with a passion for creating seamless and user-centric web applications. With expertise spanning both front-end and back-end development, I specialize in crafting robust, scalable, and visually appealing digital solutions.
-
-      Leveraging modern frameworks, clean design principles, and efficient coding practices, I strive to bridge the gap between functionality and aesthetics. My goal is to deliver exceptional user experiences, meet business objectives, and continuously evolve with emerging technologies. Whether building from the ground up or optimizing existing systems, I am committed to excellence at every stage of the development process.</p>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="images/id card.png" alt="Karthick's Image">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hello, I'm Karthick, a highly skilled and dedicated Full Stack Developer with a passion for creating seamless and user-centric web applications. With expertise spanning both front-end and back-end development, I specialize in crafting robust, scalable, and visually appealing digital solutions. My goal is to deliver exceptional user experiences, meet business objectives, and continuously evolve with emerging technologies.</p>
+      </div>
+    </div>
   </section>
+  
+  
 
   <section id="education">
     <h2>Education</h2>
@@ -112,7 +96,7 @@
           <td>Software Developer</td>
           <td>OCT 2022</td>
           <td>Dec 2024</td>
-          <td>Developed and maintained web applications, optimized performance, and collaborated with cross-functional teams.</td>
+          <td>As a Full Stack Developer, I design, develop, and provide ongoing support for production web applications used by U.S. clients. I contribute to both front-end and back-end development, ensuring seamless integration and optimal performance across the entire stack.</td>
         </tr>
       </tbody>
     </table>
@@ -123,19 +107,19 @@
 
     <div class="project">
       <h3>React JS Application</h3>
-      <p>A printing Application used in production to print ribbons in UV Printers </p>
-      <a href="images/CF application front.jpg">View Image</a>
+      <p>A printing application used in production to print ribbons in UV Printers.</p>
+      <a href="images/CF application front.jpg" target="_blank">View Image</a>
     </div>
 
     <div class="project">
-      <h3>Python Backend for the react front-end</h3>
-      <p>Handle data from SQL server tables and views , Intgrate Endpoints having different purposes. Handling image processing using pillow. Intergated with DataDog for monitoring and tracing. Intergated real UV Printers via zeep client .</p>
+      <h3>Python Backend for React Front-End</h3>
+      <p>Handles data from SQL Server tables and views, integrates endpoints with different purposes, manages image processing, and integrates with DataDog for monitoring and tracing. It is also integrated with real UV printers via a Zeep client.</p>
     </div>
 
     <div class="project">
       <h3>Task Management Tool</h3>
       <p>A simple, intuitive application to manage daily tasks and increase productivity.</p>
-      <a href="https://github.com/your-username/task-manager">View on GitHub</a>
+      <a href="https://github.com/your-username/task-manager" target="_blank">View on GitHub</a>
     </div>
   </section>
 
@@ -145,8 +129,25 @@
     <p>Connect on <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></p>
   </section>
 
-  <footer>
-    <p>&copy; 2024 Karthick M. Built with passion and dedication. <a href="#top">Back to top</a></p>
+  <footer style="position: sticky; bottom: 0; width: 100%; background-color: #333; color: white; padding: 10px 0; text-align: center;">
+    <div class="footer-content">
+      <div class="contact-icons">
+        <a href="mailto:karthickrama6024@gmail.com" target="_blank" title="Email">
+          <img src="images/logos/emaillogo.png" alt="Email" class="contact-icon">
+        </a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" title="LinkedIn">
+          <img src="images/logos/linkedinlogo.png" alt="LinkedIn" class="contact-icon">
+        </a>
+        <a href="https://wa.me/your-phone-number" target="_blank" title="WhatsApp">
+          <img src="images/logos/whatsapplogo.png" alt="WhatsApp" class="contact-icon">
+        </a>
+        <a href="https://instagram.com/your-profile" target="_blank" title="Instagram">
+          <img src="images/logos/instalogo.png" alt="Instagram" class="contact-icon">
+        </a>
+      </div>
+      <p>&copy; 2024 Karthick M. Built with passion and dedication. <a href="#top" style="color: #fff;">Back to top</a></p>
+    </div>
   </footer>
+  
 </body>
 </html>
