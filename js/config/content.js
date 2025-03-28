@@ -3,8 +3,8 @@ const content = {
     name: "Karthick M",
     title: "Full Stack Developer",
     email: "karthickrama6024@gmail.com",
-    linkedin: "https://linkedin.com/in/your-profile",
-    github: "https://github.com/your-username",
+    linkedin: "www.linkedin.com/in/karthick-m-0883b5229",
+    github: "https://github.com/karthickgaurdian",
     about: `Hello, I'm Karthick, a passionate Full Stack Developer with expertise in building scalable web applications. 
     I specialize in modern web technologies and have a strong foundation in both front-end and back-end development. 
     My experience includes developing responsive web applications, RESTful APIs, and database management systems. 
