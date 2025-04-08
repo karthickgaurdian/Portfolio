@@ -12,33 +12,26 @@ const content = {
     skills: {
       frontend: [
         "React.js",
+        "Angular",
         "HTML5",
         "CSS3",
         "JavaScript",
         "TypeScript",
         "Redux",
-        "Next.js",
-        "Tailwind CSS"
       ],
       backend: [
         "Node.js",
         "Python",
-        "Express.js",
-        "Django",
         "REST APIs",
-        "GraphQL",
-        "MongoDB",
         "SQL Server"
       ],
       devops: [
         "Git",
         "Docker",
-        "AWS",
+        "Azure",
         "CI/CD",
-        "Jenkins",
         "Kubernetes",
         "Linux",
-        "Shell Scripting"
       ],
       tools: [
         "VS Code",
@@ -46,9 +39,8 @@ const content = {
         "Figma",
         "Jira",
         "GitHub",
-        "DBeaver",
-        "MongoDB Compass",
-        "Docker Desktop"
+        "Adobe XD",
+        "Docker Desktop",
       ]
     }
   },
@@ -113,7 +105,30 @@ const content = {
       category: "fullstack",
       technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
       link: "https://github.com/your-username/task-manager"
+    },
+    {
+      title: "DevHub Productivity Assist",
+      description: "A command-line application to help developers manage tasks, reminders, credentials, and daily journal entries. Built with Python and SQL Server.",
+      category: "fullstack",
+      technologies: ["Python", "SQL Server (local instance)", "ODBC Driver for SQL Server", "Socket.io"],
+      link: "https://github.com/karthickgaurdian/DevHub.git"
+    },
+    {
+      title: "Kafka Event Producer",
+      description: "A microservice that publishes real-time events to Kafka topics. Designed for decoupled communication in distributed systems. Built with Python and Kafka client libraries.",
+      category: "microservice",
+      technologies: ["Python", "Kafka", "confluent-kafka", "Docker"],
+      link: "https://github.com/your-username/kafka-producer.git"
+    },
+    {
+      title: "Kafka Event Listener",
+      description: "A microservice that listens to Kafka topics and processes incoming events asynchronously. Built for scalable background task handling.",
+      category: "microservice",
+      technologies: ["Python", "Kafka", "confluent-kafka", "Docker"],
+      link: "https://github.com/your-username/kafka-listener.git"
     }
+    
+    
   ],
   certifications: [
     {
