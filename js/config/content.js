@@ -109,7 +109,7 @@ const content = {
     {
       title: "DevHub Productivity Assist",
       description: "A command-line application to help developers manage tasks, reminders, credentials, and daily journal entries. Built with Python and SQL Server.",
-      category: "fullstack",
+      category: "backend",
       technologies: ["Python", "SQL Server (local instance)", "ODBC Driver for SQL Server", "Socket.io"],
       link: "https://github.com/karthickgaurdian/DevHub.git"
     },
