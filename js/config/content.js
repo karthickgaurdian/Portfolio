@@ -99,13 +99,13 @@ const content = {
       technologies: ["Python", "SQL Server", "API", "DataDog"],
       link: "#"
     },
-    {
-      title: "Task Management Tool",
-      description: "A full-stack task management application with real-time updates and collaborative features.",
-      category: "fullstack",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-      link: "https://github.com/your-username/task-manager"
-    },
+    // {
+    //   title: "Task Management Tool",
+    //   description: "A full-stack task management application with real-time updates and collaborative features.",
+    //   category: "fullstack",
+    //   technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
+    //   link: "https://github.com/your-username/task-manager"
+    // },
     {
       title: "DevHub Productivity Assist",
       description: "A command-line application to help developers manage tasks, reminders, credentials, and daily journal entries. Built with Python and SQL Server.",
@@ -118,22 +118,30 @@ const content = {
       description: "A microservice that publishes real-time events to Kafka topics. Designed for decoupled communication in distributed systems. Built with Python and Kafka client libraries.",
       category: "microservice",
       technologies: ["Python", "Kafka", "confluent-kafka", "Docker"],
-      link: "https://github.com/your-username/kafka-producer.git"
+      link: "https://github.com/karthickgaurdian/python-microservice.git"
     },
     {
       title: "Kafka Event Listener",
       description: "A microservice that listens to Kafka topics and processes incoming events asynchronously. Built for scalable background task handling.",
       category: "microservice",
       technologies: ["Python", "Kafka", "confluent-kafka", "Docker"],
-      link: "https://github.com/your-username/kafka-listener.git"
+      link: "https://github.com/karthickgaurdian/sales-microservice.git"
     },
     {
       title: "AI E-commerce Assistant",
       description: "A powerful, modular AI-integrated library for modern e-commerce websites that provides intelligent features like recommendations, smart search, dynamic pricing, and customer support via REST and GraphQL APIs.",
       category: "library",
       technologies: ["Python", "FastAPI", "GraphQL", "NLP", "Machine Learning", "Shopify API", "WooCommerce API"],
-      link: "https://github.com/your-username/ai-ecommerce-assistant.git"
+      link: "https://github.com/karthickgaurdian/AI-E-commerce-Assistant.git"
+    },
+    {
+      title: "Portfolio Website Creation",
+      description: "A powerful, modular personal portfolio website for developers and designers that showcases projects, skills, and experience with a responsive layout, interactive animations, and seamless deployment.",
+      category: "website",
+      technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel", "EmailJS"],
+      link: "https://github.com/karthickgaurdian/Portfolio.git"
     }
+    
   ],
   certifications: [
     {
