@@ -126,7 +126,15 @@ const content = {
       category: "microservice",
       technologies: ["Python", "Kafka", "confluent-kafka", "Docker"],
       link: "https://github.com/your-username/kafka-listener.git"
+    },
+    {
+      "title": "AI E-commerce Assistant",
+      "description": "A modular AI-integrated library for e-commerce websites offering personalized recommendations, smart search, dynamic pricing, AI customer support, and more. Designed to integrate seamlessly via REST and GraphQL APIs.",
+      "category": "AI-powered library",
+      "technologies": ["Python", "FastAPI", "GraphQL", "NLP", "Machine Learning", "Shopify API", "WooCommerce API"],
+      "link": "https://github.com/your-username/ai-ecommerce-assistant.git"
     }
+    
     
     
   ],
