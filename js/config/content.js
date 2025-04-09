@@ -128,15 +128,12 @@ const content = {
       link: "https://github.com/your-username/kafka-listener.git"
     },
     {
-      "title": "AI E-commerce Assistant",
-      "description": "A modular AI-integrated library for e-commerce websites offering personalized recommendations, smart search, dynamic pricing, AI customer support, and more. Designed to integrate seamlessly via REST and GraphQL APIs.",
-      "category": "AI-powered library",
-      "technologies": ["Python", "FastAPI", "GraphQL", "NLP", "Machine Learning", "Shopify API", "WooCommerce API"],
-      "link": "https://github.com/your-username/ai-ecommerce-assistant.git"
+      title: "AI E-commerce Assistant",
+      description: "A powerful, modular AI-integrated library for modern e-commerce websites that provides intelligent features like recommendations, smart search, dynamic pricing, and customer support via REST and GraphQL APIs.",
+      category: "library",
+      technologies: ["Python", "FastAPI", "GraphQL", "NLP", "Machine Learning", "Shopify API", "WooCommerce API"],
+      link: "https://github.com/your-username/ai-ecommerce-assistant.git"
     }
-    
-    
-    
   ],
   certifications: [
     {
@@ -160,7 +157,7 @@ const content = {
   ],
   achievements: [
     {
-      title: "Best Employee Award",
+      title: "Excellency Award",
       organization: "Bezohminds PVT LTD",
       date: "2023",
       description: "Recognized for outstanding performance and innovation in project delivery"
